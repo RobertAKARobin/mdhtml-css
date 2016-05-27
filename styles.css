@@ -18,6 +18,7 @@ html{
 body{
   max-width:800px;
   margin:0 auto;
+  padding:10px;
 }
 h1, h2, h3, h4, h5, h6{
   font-family:"Helvetica Neue", Helvetica, sans-serif;
@@ -66,6 +67,9 @@ a.nav:hover{
 }
 li{
   list-style-position:inside;
+}
+li li{
+  padding-left:2em;
 }
 pre, code{
   font-family:"Andale Mono", "Courier New", monospace;
